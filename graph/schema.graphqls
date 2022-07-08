@@ -8,5 +8,5 @@ type Todo {
 }
 
 type Query {
-  todos: Todo!
+  todo: Todo!
 }

@@ -10,8 +10,8 @@ import (
 	"schema-resolver-query/graph/model"
 )
 
-// Todos is the resolver for the todos field.
-func (r *queryResolver) Todos(ctx context.Context) (*model.Todo, error) {
+// Todo is the resolver for the todo field.
+func (r *queryResolver) Todo(ctx context.Context) (*model.Todo, error) {
 	panic(fmt.Errorf("not implemented"))
 }
 
