@@ -11,7 +11,7 @@ import (
 )
 
 // Todos is the resolver for the todos field.
-func (r *queryResolver) Todos(ctx context.Context) ([]*model.Todo, error) {
+func (r *queryResolver) Todos(ctx context.Context) (*model.Todo, error) {
 	panic(fmt.Errorf("not implemented"))
 }
 
